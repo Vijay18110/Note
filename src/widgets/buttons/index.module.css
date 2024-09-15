@@ -1,0 +1,20 @@
+.btn {
+    width: 150px;
+    height: 48px;
+    color: white;
+    margin-top: 20px;
+    font-size: xx-large;
+    background-color: hsl(187, 29%, 6%);
+    box-shadow: 1px 2px 3px 1px rgba(255, 249, 249, 0.7);
+    border-radius: 20px;
+    margin-bottom: 40px;
+
+}
+
+@media screen and (max-width:500px) and (min-width:200px) {
+    .btn {
+        width: 100px;
+        height: 30px;
+        font-size: large;
+    }
+}

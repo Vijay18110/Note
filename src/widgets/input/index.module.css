@@ -1,0 +1,27 @@
+.InputField {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 3px 1px rgba(255, 249, 249, 0.7);
+
+    border: none;
+    font-size: 20px;
+}
+
+.InputFieldcont {
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+}
+
+*:focus {
+    outline: none;
+
+}
+
+@media screen and (max-width:500px) and (min-width:200px) {
+    .InputField {
+        width: 300px;
+        font-size: small;
+    }
+}
